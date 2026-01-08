@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.env/
+.env.*
+
+# Streamlit / Temporary files
+*.db
+*.sqlite3
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# PDF uploads / temp files
+tmp*.pdf
+*.pdf.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: cache folders
+.cache/
+__pycache__/
