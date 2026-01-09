@@ -1,4 +1,4 @@
-from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
+from langchain_core.messages import AIMessage, HumanMessage
 
 sessions = {}
 
@@ -11,5 +11,4 @@ def get_session_history(session_id):
     return sessions.get(session_id, [])
 
 def clear_session(session_id):
-    if session_id in sessions:
-        sessions[session_id] = []
+    sessions[session_id] = []
